@@ -25,6 +25,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.example.flutter_taggy'
     // Bumping the plugin compileSdkVersion requires all clients of this plugin
     // to bump the version in their app.
     compileSdkVersion 33
